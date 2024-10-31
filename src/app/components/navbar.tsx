@@ -88,12 +88,14 @@ export default function Navbar({ navItems }: NavbarProps) {
                 </div>
               </div>
             </div>
+            { /*
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               <button
                 type="button"
                 className="relative rounded-full bg-[#ffc400] p-1 text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#ffc400]"
               >
                 <span className="absolute -inset-1.5"></span>
+                
                 <span className="sr-only">View notifications</span>
                 <svg
                   className="h-6 w-6"
@@ -111,6 +113,7 @@ export default function Navbar({ navItems }: NavbarProps) {
                 </svg>
               </button>
             </div>
+          */  }
           </div>
         </div>
       </nav>
