@@ -3,6 +3,7 @@
 import React from 'react';
 import EniLogo from '@/app/public/images/Eni-logo.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
 type NavItem = {
   text: string;
@@ -72,7 +73,7 @@ export default function Navbar({ navItems }: NavbarProps) {
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
                   {navItems.map((item, index) => (
-                    <a
+                    <Link
                       key={index}
                       href={item.link}
                       className={`rounded-md px-3 py-2 text-sm font-medium ${
@@ -83,7 +84,7 @@ export default function Navbar({ navItems }: NavbarProps) {
                       aria-current={item.current ? 'page' : undefined}
                     >
                       {item.text}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>

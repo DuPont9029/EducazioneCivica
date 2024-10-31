@@ -5,20 +5,14 @@ import ImageSlider from "@components/ImageSlider";
 import TextComponent from "@components/TextComponent";
 import TradingViewWidget from "@components/TradingViewWidget";
 
-const navItems = [
-  { text: 'Home', link: '#', current: true },
-  { text: 'Enrico Mattei', link: '#' },
-  { text: "L'ENI", link: '#' },
-  { text: 'La potenza mondiale', link: '#' },
-  { text: 'La morte', link: '#' },
-];
+
 
 
 
 export default function Home() {
   return (
     <div>
-      <Navbar navItems={navItems}/>
+      
         <ImageSlider />
           <div className="py-10 px-5">
             <TradingViewWidget />
