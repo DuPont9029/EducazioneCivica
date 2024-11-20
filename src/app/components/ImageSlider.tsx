@@ -44,6 +44,7 @@ export default function ImageSlider(): JSX.Element {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
+  
   // useEffect hook to handle automatic slide transition
   useEffect(() => {
     // Start interval for automatic slide change if not hovered
@@ -59,6 +60,11 @@ export default function ImageSlider(): JSX.Element {
     }
   }, [isHovered]);
 
+
+
+
+
+
   // Handle mouse over event
   const handleMouseOver = (): void => {
     setIsHovered(true);
@@ -72,7 +78,7 @@ export default function ImageSlider(): JSX.Element {
   return (
     <div className="relative w-full mx-auto p-5">
       <div
-        className="relative h-[460px] group hover:-translate-y-2"
+        className="relative h-[460px] group" // className="relative h-[460px] group hover:-translate-y-2"
         onMouseOver={handleMouseOver}
         onMouseLeave={handleMouseLeave}
       >
