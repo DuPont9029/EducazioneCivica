@@ -17,6 +17,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Enrico Mattei",
   description: "L'uomo che rese l'italia una superpotenza",
+  icons: {
+    icon: "/images/Eni-logo.png",  // non funziona l'icona
+  },
 };
 
 const navItems = [
@@ -33,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="it">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

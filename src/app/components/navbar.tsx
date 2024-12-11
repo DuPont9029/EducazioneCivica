@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import EniLogo from '@/app/public/images/Eni-logo.png';
+import EniLogo from '@images/Eni-logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
