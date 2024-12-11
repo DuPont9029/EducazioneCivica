@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 const navItems = [
   { text: 'Home', link: '/', current: true },
   { text: 'Enrico Mattei', link: '/Mattei' },
-  { text: "L'ENI", link: '#' },
+  { text: "L'ENI", link: '/Eni' },
   { text: 'La potenza mondiale', link: '#' },
   { text: 'La morte', link: '#' },
 ];

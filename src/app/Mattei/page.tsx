@@ -1,7 +1,7 @@
 import Enrico2 from '@images/enrico_mattei2.jpeg'
 import Image from 'next/image'
 import TextComponent from '@components/TextComponent' // Assumendo che TextComponent sia un componente separato
-import Footer from '../components/footer'
+import Footer from '@components/footer'
 
 export default function Mattei() {
     return (

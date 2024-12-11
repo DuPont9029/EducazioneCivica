@@ -4,6 +4,7 @@ import React from 'react';
 import EniLogo from '@images/Eni-logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 type NavItem = {
   text: string;
@@ -16,6 +17,13 @@ type NavbarProps = {
 };
 
 export default function Navbar({ navItems }: NavbarProps) {
+
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
   return (
     <div>
       <nav className="bg-[#ffc400]">
@@ -23,8 +31,9 @@ export default function Navbar({ navItems }: NavbarProps) {
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
+                onClick={toggleMobileMenu}
                 type="button"
-                className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-yellow-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -92,6 +101,17 @@ export default function Navbar({ navItems }: NavbarProps) {
           </div>
         </div>
 
+
+
+        <div className={`${isMobileMenuOpen ? '' : 'hidden'} sm:hidden`} id="mobile-menu">
+                <div className="space-y-1 px-2 pb-3 pt-2">
+                    <a href="/" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">Home</a>
+                    <a href="/Mattei" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">Enrico Mattei</a>
+                    <a href="/Eni" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">L'Eni</a>
+                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">La potenza modiale</a>
+                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">La morte</a>
+                </div>
+            </div>
 
       </nav>
     </div>
