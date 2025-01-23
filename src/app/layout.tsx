@@ -26,8 +26,8 @@ const navItems = [
   { text: 'Home', link: '/', current: true },
   { text: 'Enrico Mattei', link: '/Mattei' },
   { text: "L'ENI", link: '/Eni' },
-  { text: 'La potenza mondiale', link: '#' },
-  { text: 'La morte', link: '#' },
+  //{ text: 'La potenza mondiale', link: '#' },
+  { text: 'La morte', link: '/Morte' },
 ];
 
 export default function RootLayout({

@@ -108,7 +108,7 @@ export default function Navbar({ navItems }: NavbarProps) {
                     <a href="/" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">Home</a>
                     <a href="/Mattei" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">Enrico Mattei</a>
                     <a href="/Eni" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">L'Eni</a>
-                    <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">La potenza modiale</a>
+                  {/*  <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">La potenza modiale</a> */}
                     <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-[#bf950a] hover:text-white">La morte</a>
                 </div>
             </div>
