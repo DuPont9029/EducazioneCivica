@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import DeviceNet from '@images/DeviceNet.png';// Assicurati che il percorso del logo sia corretto
+import DeviceNet from '@images/DeviceNet.png';
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
