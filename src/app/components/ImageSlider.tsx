@@ -2,9 +2,9 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import image1 from "@images/ENI.jpeg";
-import image2 from "@images/enrico_mattei.jpg";
-import image3 from "@images/andreotti.jpeg";
+import image1 from "@images/peer2peer.jpeg";
+import image2 from "@images/nbc.png";
+import image3 from "@images/RAEE.jpg";
 
 
 // Interface for image data
@@ -97,7 +97,7 @@ export default function ImageSlider(): JSX.Element {
             key={index}
             className={`h-1 w-10 mx-1 ${
               index === currentIndex
-                ? "bg-[#ffc400] rounded-xl"
+                ? "bg-[var(--color-primary)] rounded-xl"
                 : "bg-gray-300 rounded-xl"
             } transition-all duration-500 ease-in-out`}
           ></div>

@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Enrico Mattei",
-  description: "L'uomo che rese l'italia una superpotenza",
+  title: "DeviceNet",
+  description: "Uniti nella diversità, sotto un unica forte rete.",
   icons: {
     icon: "/images/Eni-logo.png",  // non funziona l'icona
   },
@@ -40,7 +40,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar navItems={navItems}/>
+        <Navbar /*navItems={navItems}*//>
         {children}
       </body>
     </html>

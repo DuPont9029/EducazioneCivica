@@ -18,8 +18,23 @@ export default function Home() {
           <div className="py-10 px-5">
             <TradingViewWidget />
           </div>
-            <TextComponent text="Enrico Mattei, una delle figure più emblematiche e controverse dell’Italia del dopoguerra, incarna in pieno l’energia e le ambizioni della nazione che stava risorgendo dalle macerie del conflitto mondiale. Fondatore dell'ENI, l'Ente Nazionale Idrocarburi, Mattei riuscì a trasformare un'azienda statale di secondo piano in una delle più influenti compagnie energetiche a livello globale, cambiando non solo la mappa dell’energia in Italia, ma anche i rapporti internazionali in un periodo in cui il petrolio si affermava come risorsa strategica. Enrico Mattei, figura emblematica e visionaria dell’Italia del dopoguerra, rappresenta il fervore e la determinazione di una nazione desiderosa di risollevarsi e ritagliarsi uno spazio autonomo sulla scena globale. Fondatore dell’ENI, l’Ente Nazionale Idrocarburi, Mattei trasformò una realtà statale marginale in un colosso energetico capace di sfidare i giganti petroliferi internazionali e di ridefinire le regole del gioco. Grazie alla sua audacia e alla sua strategia innovativa, Mattei cambiò il volto dell’industria energetica italiana e influenzò profondamente la geopolitica, promuovendo accordi vantaggiosi per i paesi produttori e sostenendo l’indipendenza economica dell’Italia in un periodo di grande cambiamento. Mattei riuscì a ottenere concessioni e appalti nei Paesi detentori delle riserve di petrolio, offrendo ai governanti condizioni più vantaggiose di quelle proposte dalle grandi compagnie che dominavano il mercato, da lui battezzate “le sette sorelle”. I successi dell’Eni procurarono a Mattei molti nemici, sia in Italia, sia all’estero, e nel 1962 il dirigente trovò la morte in un incidente aereo causato da un attentato dinamitardo. I mandanti non sono mai stati individuati con certezza.P" className="mt-4" />
-            <TextComponent text="Mattei riuscì a ottenere concessioni e appalti nei Paesi detentori delle riserve di petrolio, offrendo ai governanti condizioni più vantaggiose di quelle proposte dalle grandi compagnie che dominavano il mercato, da lui battezzate “le sette sorelle”. I successi dell’Eni procurarono a Mattei molti nemici, sia in Italia, sia all’estero, e nel 1962 il dirigente trovò la morte in un incidente aereo causato da un attentato dinamitardo. I mandanti non sono mai stati individuati con certezza." className="mt-4" />
+            <TextComponent text="
+            Ogni anno, milioni di smartphone, tablet e dispositivi elettronici finiscono dimenticati nei cassetti o, peggio, nelle discariche. Ma cosa accadrebbe se invece di smaltirli, potessimo riutilizzarli per costruire qualcosa di nuovo, utile e sostenibile? 
+            DeviceNet è la prima rete di comunicazione decentralizzata basata sul riutilizzo di dispositivi elettronici dismessi. Trasformiamo RAEE (Rifiuti di Apparecchiature Elettriche ed Elettroniche) in nodi intelligenti di una rete indipendente, resiliente e a basso impatto ambientale. 
+            DeviceNet nasce per rispondere a questo problema con un’idea radicale: dare nuova vita ai dispositivi che il mercato ha scartato, trasformandoli in nodi attivi di una rete di comunicazione decentralizzata. 
+            Il nostro progetto unisce sostenibilità ambientale, tecnologia e resilienza digitale, proponendo un modello completamente nuovo per pensare la connettività e il valore degli oggetti tecnologici.
+            Attraverso un processo di recupero e rigenerazione, i dispositivi elettronici vengono riconvertiti grazie a un software leggero e open-source, che consente loro di comunicare tra loro senza bisogno di infrastrutture centralizzate. 
+            Ogni nodo è indipendente, ma allo stesso tempo parte di un ecosistema distribuito, sicuro e resistente. Così, invece di diventare spazzatura, i vecchi dispositivi contribuiscono a costruire una rete viva, dinamica, capace di crescere con l’aiuto di chiunque voglia partecipare." 
+            className="mt-4" 
+            />
+
+
+            <TextComponent text="DeviceNet nasce per rispondere al problema dei RAEE con un’idea radicale: dare nuova vita ai dispositivi che il mercato ha scartato, trasformandoli in nodi attivi di una rete di comunicazione decentralizzata. 
+            Il nostro progetto unisce sostenibilità ambientale, tecnologia e resilienza digitale, proponendo un modello completamente nuovo per pensare la connettività e il valore degli oggetti tecnologici. 
+            Attraverso un processo di recupero e rigenerazione, i dispositivi elettronici vengono riconvertiti grazie a un software leggero e open-source, che consente loro di comunicare tra loro senza bisogno di infrastrutture centralizzate. 
+            Ogni nodo è indipendente, ma allo stesso tempo parte di un ecosistema distribuito, sicuro e resistente. Così, invece di diventare spazzatura, i vecchi dispositivi contribuiscono a costruire una rete viva, dinamica, capace di crescere con l’aiuto di chiunque voglia partecipare." 
+            className="mt-4" 
+            />
           <Footer />
 
 

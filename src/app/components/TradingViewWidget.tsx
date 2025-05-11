@@ -14,16 +14,17 @@ function TradingViewWidget() {
       script.innerHTML = `
         {
           "autosize": true,
-          "symbol": "MIL:ENI",
+          "symbol": "MIL:LDO",
           "interval": "D",
-          "timezone": "Europe/Rome",
+          "timezone": "Etc/UTC",
           "theme": "light",
           "style": "1",
           "locale": "it",
-          "gridColor": "rgba(0, 0, 0, 0.06)",
           "hide_top_toolbar": true,
-          "allow_symbol_change": true,
-          "calendar": false,
+          "hide_legend": true,
+          "allow_symbol_change": false,
+          "save_image": false,
+          "hide_volume": true,
           "support_host": "https://www.tradingview.com"
         }`;
       container.current.appendChild(script);
